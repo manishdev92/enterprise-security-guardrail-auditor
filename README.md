@@ -1,7 +1,26 @@
 # Enterprise Security Guardrail Auditor
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![SQLite](https://img.shields.io/badge/SQLite-Database-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Project Overview
 The Enterprise Security Guardrail Auditor is an API-first, modular platform for reviewing Infrastructure-as-Code templates and surfacing actionable security findings. It combines a FastAPI backend, a rule engine, an offline AI explanation service, and a Streamlit dashboard to demonstrate the end-to-end workflow from template upload to remediation guidance.
+
+## Features
+
+- API-first architecture
+- Terraform parser
+- CloudFormation parser
+- Security rule engine
+- AI-powered remediation guidance
+- Risk Score dashboard
+- OpenAPI documentation
+- SQLite persistence
+- Streamlit dashboard
+- Unit testing
+- Structured logging
 
 ## Architecture Diagram
 ```mermaid
@@ -54,7 +73,16 @@ tests/
 - POST /explain
 
 ## Dashboard Screenshots
-- Placeholder screenshot: [docs/screenshots/dashboard-placeholder.txt](docs/screenshots/dashboard-placeholder.txt)
+- Placeholder screenshot: 
+## Dashboard
+
+### Home
+
+![Dashboard](docs/screenshots/dashboard%20ui.png)
+
+### Findings
+
+![Findings](docs/screenshots/dashboard%20data.png)
 - The dashboard displays upload, parsing, risk summary, findings, and explanation panels in a local Streamlit experience.
 
 ## Presentation
@@ -66,6 +94,20 @@ The FastAPI service exposes interactive API documentation at:
 - /docs
 - /redoc
 - /openapi.json
+
+## Installation
+
+```bash
+git clone https://github.com/manishdev92/enterprise-security-guardrail-auditor.git
+
+cd enterprise-security-guardrail-auditor
+
+python -m venv .venv
+
+source .venv/bin/activate
+
+pip install -r requirements.txt
+```
 
 ## How to Run
 1. Start the API:
@@ -88,3 +130,9 @@ No AWS or Azure infrastructure was provisioned. The application runs locally usi
 
 ## Status
 The backend foundation, ingestion pipeline, rule engine, AI explanation service, and dashboard UI are implemented and verified.
+
+## AI-Assisted Development
+
+This project was developed using GitHub Copilot following the Graduate Vibe Coding Challenge "Vibe Coding" workflow.
+
+The complete AI interaction history is maintained in prompts.md.
