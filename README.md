@@ -136,3 +136,13 @@ The backend foundation, ingestion pipeline, rule engine, AI explanation service,
 This project was developed using GitHub Copilot following the Graduate Vibe Coding Challenge "Vibe Coding" workflow.
 
 The complete AI interaction history is maintained in prompts.md.
+
+## Tagle.ai Assessment
+
+As part of the Graduate Vibe Coding Challenge, I completed the Tagle.ai assessment.
+
+**AI Readiness Type:** **The Connector**
+
+*"You bring people together to make AI work for everyone."*
+
+This reflects my approach throughout the project: acting as the Lead Architect, guiding GitHub Copilot through iterative prompts, maintaining a complete prompt audit, and validating all generated code while preserving a collaborative AI-assisted development workflow.
